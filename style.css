@@ -1,0 +1,134 @@
+*, html{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1A2238;
+    color: white;
+    
+}
+.logo{
+    margin-right: auto;
+    margin-left: 20px;
+}
+.logo:hover{
+    color: #FF6A3D;
+    cursor: pointer;
+    transition: all .5s ease 0s;
+    transform: rotate(3deg);
+}
+.navbar > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+}
+.navbar > ul > li{
+    list-style: none;
+    padding: 10px;
+    font-size: 18px;
+    
+}
+.navbar > ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+.navbar > ul>li>a:hover{
+    color: #FF6A3D;
+    transition: all .7s ease 0s;
+}
+.navbar > ul>li:hover{
+    transform: rotate(3deg);
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+
+}
+.judul{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.judul>header>article>p{
+    font-size: 10px;
+}
+.kucing{
+    max-width: 360px;
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+}
+.isi{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.utama{
+    width: 80%;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+    padding-bottom: 30px;
+}
+.utama > p{
+    margin-top: 30px;
+}
+.samping{
+    width: 20%;
+    padding: 15px; 
+    border: 1px solid black;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 100%;
+}
+.samping aside img{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.samping>aside>p{
+    margin-top: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    background-color: #1A2238;
+    
+}
+@media screen and (max-width:500px){ 
+.navbar{
+    width: 100%;
+}
+.content{
+    width: 100%;
+}
+    .navbar > ul{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        z-index: 9;
+        background-color: #1A2238;
+        justify-content: left;
+        font-size: 12px;
+    }
+    footer{
+        margin-bottom: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: #1A2238;
+    }
+    
+}

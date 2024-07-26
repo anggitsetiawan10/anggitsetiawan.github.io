@@ -1,0 +1,150 @@
+*, html{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1A2238;
+    color: white;
+    
+}
+.logo{
+    margin-right: auto;
+    margin-left: 20px;
+}
+.logo:hover{
+    color: #FF6A3D;
+    cursor: pointer;
+    transition: all .5s ease 0s;
+    transform: rotate(3deg);
+}
+.navbar > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+}
+.navbar > ul > li{
+    list-style: none;
+    padding: 10px;
+    font-size: 18px;
+    
+}
+.navbar > ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+.navbar > ul>li>a:hover{
+    color: #FF6A3D;
+    transition: all .7s ease 0s;
+}
+.navbar > ul>li:hover{
+    transform: rotate(3deg);
+}
+.content{
+    width: 100%;
+    height: 100%;
+
+}
+.judul{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.judul>header>article>p{
+    font-size: 10px;
+}
+.isi{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 20px;
+}
+    
+.bungkus{
+    margin-right: auto;
+    width: 85%;
+    height: 100%;
+    padding-left: 50px;
+    padding-right:50px ;
+}
+.konten{
+    padding-top:50px ;
+    padding-left: 80px;
+    padding-right:100px ;
+}
+.gambar-konten{
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+}
+.perkataan{
+    margin-top: 10px;
+    text-align: justify;
+}
+.perkataan >h1{
+    margin-bottom: 20px;
+}
+.konten>h1{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.konten>p{
+    margin-top: 10px;
+    text-align: justify;
+}
+.konten>p>a{
+    text-decoration: none;
+    padding-top: 30px;
+}
+
+.samping{
+    width: 20%;
+    padding: 15px; 
+    border: 1px solid black;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: auto;
+}
+.samping aside img{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.samping>aside>p{
+    margin-top: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    background-color: #1A2238;
+    
+}
+@media screen and (max-width:500px){ 
+        .navbar > ul{
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            z-index: 9;
+            background-color: #1A2238;
+            justify-content: left;
+            font-size: 12px;
+        }
+        footer{
+            margin-bottom: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            background-color: #1A2238;
+        }
+        
+    }

@@ -1,0 +1,176 @@
+*, html{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #1A2238;   
+}
+header{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 15%;
+    justify-content: center;
+}
+nav{
+    position: fixed;
+    left: auto;
+    bottom: 40% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.a{
+    color: white;
+    text-decoration: none;
+}
+.ul{
+    margin-top: 40px;
+}
+.ul>li{
+    list-style-type: none;
+    margin-top: 10px;
+}
+.ul>li:hover{
+    transform: rotate(3deg);
+    
+}
+.a:hover{
+    color: #FF6A3D;
+    transition: all .5s ease 0s;
+    transform: rotate(3deg);
+}
+main{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.perkenalan{
+    background-image: url('IMG-20231028-WA0037.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.aa{
+    color: white;
+    font-size:80px;
+    text-shadow: 3px 2px 1px grey;
+}
+.aaa{
+    color: white;
+    text-shadow: 3px 2px 1px grey;
+}
+.perkenalan>div{
+    text-align: center;
+}
+.kontak{
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    max-width: 320px;
+    height: auto;
+    width: 100%;
+    border-radius: 100%;
+    padding: 20px;
+}
+.nama{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+}
+.isi{
+    padding-right: 200px;
+    padding-left: 20px;
+    text-align: justify;
+}
+.isi>p{
+    margin-top: 20px;
+}
+.asaset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+.asaset>li{
+    margin:15px;
+}
+.aset{
+    height: 40px;
+    width: auto;
+    border-radius: 100%;
+}
+.penutup{
+    height: 100vh;
+    width: 100%;
+    background-image: url('IMG-20231028-WA0037.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 3px 2px 1px grey;
+}
+@media screen and (max-width:500px){
+    .body{
+        height: 100%;
+        width: 100%;
+    }
+    .img{
+        height: 100%;
+        width: 110px;
+        border-radius: 100%;
+    }
+    .nama{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 10px;
+    }
+    .isi{
+        padding:10px;
+    }
+    .aa{
+        color: white;
+        font-size: 30px;
+    }
+    .aaa{
+        color: white;
+    }
+    .aset{
+        height: 20px;
+        width: auto;
+        border-radius: 100%;
+    }
+    nav{
+        position: fixed;
+        bottom: 0;
+        z-index: 9;
+        background-color: #1A2238;
+        justify-content: left;
+        font-size: 12px;
+    }
+}
