@@ -54,7 +54,7 @@ main{
     flex-direction: column;
 }
 .perkenalan{
-    background-image: url('IMG-20231028-WA0037.jpg');
+    background-image: url('../aset/IMG-20231028-WA0037.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
